@@ -1,3 +1,5 @@
+//Lotem Sharir , Ameed Halabi
+
 const dbSingleton = require("../dbSingleton");
 const db = dbSingleton.getConnection();
 
@@ -19,3 +21,4 @@ function checkProductExists(req, res, next) {
 }
 
 module.exports = checkProductExists;
+
