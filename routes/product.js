@@ -1,3 +1,5 @@
+//Lotem Sharir , Ameed Halabi
+
 const express = require("express");
 const router = express.Router();
 const dbSingleton = require("../dbSingleton");
@@ -110,5 +112,6 @@ router.get("/", (req, res) => {
     res.json(results);
   });
 });
+
 
 module.exports = router;
