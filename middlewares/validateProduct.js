@@ -1,3 +1,5 @@
+//Lotem Sharir , Ameed Halabi
+
 function validateProduct(req, res, next) {
   const { name, price, stock } = req.body;
 
@@ -31,3 +33,4 @@ function validateProduct(req, res, next) {
 }
 
 module.exports = validateProduct;
+
