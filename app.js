@@ -1,3 +1,4 @@
+//Lotem Sharir , Ameed Halabi
 const express = require("express");
 const app = express();
 const userRoutes = require("./routes/users");
@@ -12,3 +13,4 @@ app.use("/products", productsRoutes);
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
